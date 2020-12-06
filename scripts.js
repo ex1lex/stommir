@@ -3,8 +3,15 @@ $(".brends__carousel").slick({
   slidesToShow: 5,
   slidesToScroll: 5,
   dots: true,
+  slide: ".brends__item",
   autoplay: true,
-  centerPadding: "20px",
+  appendArrows: $(".brends"),
+  appendDots: $(".brends"),
+  dotsClass: "brends__dots",
+  prevArrow:
+    '<button id="prev" type="button" class="brends__btn brends__btn_prev" aria-hidden="true"><</button>',
+  nextArrow:
+    '<button id="next" type="button" class="brends__btn brends__btn_next">></button>',
   autoplaySpeed: 5000,
   responsive: [
     {
