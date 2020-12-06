@@ -33,10 +33,12 @@
 
 .brends .slick-prev:before {
   content: "<";
+  margin-left: -90px;
 }
 
 .brends .slick-next:before {
   content: ">";
+  padding-left: 60px;
 }
 
 .brends .slick-prev:hover:before,
@@ -44,6 +46,11 @@
 .brends .slick-next:hover:before,
 .brends .slick-next:focus:before {
   color: rgb(8 176 249 / 0.6);
+}
+
+.brends {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .brends__carousel {
@@ -74,6 +81,14 @@
   .brends__img {
     width: 99px;
     height: 76px;
+  }
+
+  .brends .slick-prev:before {
+    margin-left: 0px;
+  }
+
+  .brends .slick-next:before {
+    padding-left: 00px;
   }
 }
 
