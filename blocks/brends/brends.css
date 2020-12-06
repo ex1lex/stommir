@@ -26,10 +26,7 @@
   background: none;
   color: #c7cccf;
   font-size: 50px;
-<<<<<<< HEAD
   z-index: 5000;
-=======
->>>>>>> 807f83a179d767b53dff0d3313af4e0e67a73940
 }
 
 .brends__btn:hover,
@@ -46,10 +43,6 @@
 }
 
 .brends__item {
-<<<<<<< HEAD
-=======
-  border: 1px solid blue;
->>>>>>> 807f83a179d767b53dff0d3313af4e0e67a73940
   height: 125px;
 }
 
