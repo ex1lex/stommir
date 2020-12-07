@@ -14,27 +14,28 @@
   margin: 0;
 }
 
-.brends__btn {
+.carousel__btn {
   position: absolute;
-  top: 30%;
+  top: 40%;
   border: none;
   outline: none;
   background: none;
   color: #c7cccf;
   font-size: 50px;
   z-index: 5000;
+  cursor: pointer;
 }
 
-.brends__btn:hover,
-.brends__btn:active {
+.carousel__btn:hover,
+.carousel__btn:active {
   color: rgba(8, 176, 249, 0.66);
 }
 
-.brends__btn_prev {
+.carousel__btn_prev {
   left: 57px;
 }
 
-.brends__btn_next {
+.carousel__btn_next {
   right: 57px;
 }
 
@@ -49,18 +50,19 @@
   margin: auto auto;
 }
 
-.brends__dots {
+.carousel__dots {
   text-align: center;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
-.brends__dots li {
+.carousel__dots li {
   display: inline;
   list-style: none;
 }
 
-.brends__dots li button {
+.carousel__dots li button {
   border: none;
   outline: none;
   background: none;
@@ -68,13 +70,13 @@
   color: #c7d6dc;
 }
 
-.brends__dots li button:before {
+.carousel__dots li button:before {
   font-size: 60px;
   content: "•";
 }
 
-.brends__dots li button:hover:before,
-.brends__dots .slick-active button:before {
+.carousel__dots li button:hover:before,
+.carousel__dots .slick-active button:before {
   color: #5eceff;
 }
 
@@ -93,11 +95,11 @@
     height: 86px;
   }
 
-  .brends__btn_prev {
+  .carousel__btn_prev {
     left: 85px;
   }
 
-  .brends__btn_next {
+  .carousel__btn_next {
     right: 85px;
   }
 }
@@ -116,20 +118,20 @@
     width: 100%;
     height: 76px;
   }
-  .brends__btn {
+  .carousel__btn {
     top: 33%;
     font-size: 25px;
   }
 
-  .brends__btn_prev {
+  .carousel__btn_prev {
     left: 65px;
   }
 
-  .brends__btn_next {
+  .carousel__btn_next {
     right: 65px;
   }
 
-  .brends__dots li button:before {
+  .carousel__dots li button:before {
     font-size: 45px;
   }
 }
@@ -156,11 +158,11 @@
     height: 76px;
   }
 
-  .brends__btn_prev {
+  .carousel__btn_prev {
     left: 27px;
   }
 
-  .brends__btn_next {
+  .carousel__btn_next {
     right: 27px;
   }
 }

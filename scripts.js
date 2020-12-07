@@ -1,3 +1,20 @@
+$(".product__carousel").slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: false,
+  adaptiveHeight: true,
+  autoplay: true,
+  appendArrows: $(".product__carousel"),
+  appendDots: $(".product__carousel"),
+  dotsClass: "carousel__dots",
+  prevArrow:
+    '<button id="prev" type="button" class="carousel__btn carousel__btn_prev product__btn_prev" aria-hidden="true"><</button>',
+  nextArrow:
+    '<button id="next" type="button" class="carousel__btn carousel__btn_next product__btn_next">></button>',
+  autoplaySpeed: 5000,
+});
+
 $(".brends__carousel").slick({
   infinite: true,
   slidesToShow: 5,
@@ -7,11 +24,11 @@ $(".brends__carousel").slick({
   autoplay: true,
   appendArrows: $(".brends"),
   appendDots: $(".brends"),
-  dotsClass: "brends__dots",
+  dotsClass: "carousel__dots",
   prevArrow:
-    '<button id="prev" type="button" class="brends__btn brends__btn_prev" aria-hidden="true"><</button>',
+    '<button id="prev" type="button" class="carousel__btn carousel__btn_prev" aria-hidden="true"><</button>',
   nextArrow:
-    '<button id="next" type="button" class="brends__btn brends__btn_next">></button>',
+    '<button id="next" type="button" class="carousel__btn carousel__btn_next">></button>',
   autoplaySpeed: 5000,
   responsive: [
     {
