@@ -1,0 +1,17 @@
+.slick-slide {
+  height: auto;
+}
+.banner {
+  padding: 50px 0px;
+}
+
+.banner__title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0 40px 0;
+  padding: 0;
+}

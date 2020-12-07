@@ -1,4 +1,7 @@
 @import url(../blocks/root/root.css);
+@import url(../blocks/carousel/carousel.css);
+@import url(../blocks/banner/banner.css);
 @import url(../blocks/product/product.css);
+@import url(../blocks/offers/offers.css);
 @import url(../blocks/catalog/catalog.css);
 @import url(../blocks/brends/brends.css);
