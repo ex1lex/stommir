@@ -53,8 +53,13 @@
   color: #ffffff;
   text-decoration: none;
   padding-bottom: 4px;
+  border: none;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all linear 0.8s;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
 }
-
 .footer-menu__link:hover,
 .footer-menu__link:active {
   border-bottom: 1px solid white;
