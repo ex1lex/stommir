@@ -112,9 +112,9 @@
 
 @media (max-width: 425px) {
   .carousel__btn_prev {
-    margin: 0;
+    margin: 0 3px 0 3px;
   }
   .carousel__btn_next {
-    margin: 0;
+    margin: 0 3px 0 3px;
   }
 }

@@ -153,7 +153,7 @@
     position: absolute;
     font-size: 11px;
     cursor: pointer;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05); */
     -webkit-color: white;
     -moz-color: white;
     -o-color: white;
