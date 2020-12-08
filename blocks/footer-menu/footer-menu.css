@@ -137,7 +137,12 @@
     outline: 0;
     background: none;
     font-weight: bold;
+    -webkit-color: white;
+    -moz-color: white;
+    -o-color: white;
     color: white;
+    -webkit-text-fill-color: white;
+    -webkit-opacity: 1;
     width: 15px;
     height: 15px;
   }
