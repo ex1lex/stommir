@@ -138,6 +138,8 @@
     background: none;
     font-weight: bold;
     color: white;
+    width: 15px;
+    height: 15px;
   }
 
   .footer-menu__btn::after {
@@ -179,7 +181,7 @@
   .footer-menu__list_show {
     visibility: visible;
     opacity: 1;
-    height: 100%;
+    height: auto;
   }
 
   .footer-menu__link {
