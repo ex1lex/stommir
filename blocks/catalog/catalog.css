@@ -82,6 +82,9 @@
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
   transition: all linear 0.2s;
 }
 
@@ -118,7 +121,7 @@
   }
   .catalog__gallery {
     grid-row-gap: 66px;
-    grid-column-gap: 97px;
+    grid-column-gap: 50px;
   }
 
   .catalog__item-title {

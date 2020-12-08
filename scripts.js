@@ -4,7 +4,7 @@ $(".carousel__container_products").slick({
   slidesToScroll: 1,
   dots: false,
   adaptiveHeight: true,
-  // autoplay: true,
+  autoplay: true,
   appendArrows: $(".carousel__container_products"),
   appendDots: $(".carousel_products"),
   dotsClass: "carousel__dots",
@@ -79,4 +79,16 @@ $(".carousel__container_brends").slick({
       },
     },
   ],
+});
+
+const menuList = Array.from(document.querySelectorAll(".footer-menu"));
+
+menuList.forEach((menu) => {
+  const menuBtn = menu.querySelector(".footer-menu__btn");
+  const menuUl = menu.querySelector(".footer-menu__list");
+  menuBtn.addEventListener("click", (evt) => {
+    menuBtn.classList.toggle("footer-menu__btn_rotate");
+    console.log(menuUl);
+    menuUl.classList.toggle("footer-menu__list_show");
+  });
 });
