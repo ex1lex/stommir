@@ -137,7 +137,7 @@
     outline: 0;
     background: none;
     font-weight: bold;
-    transition: ;
+    color: white;
   }
 
   .footer-menu__btn::after {
