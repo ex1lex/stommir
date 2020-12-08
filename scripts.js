@@ -4,7 +4,7 @@ $(".carousel__container_products").slick({
   slidesToScroll: 1,
   dots: false,
   adaptiveHeight: true,
-  autoplay: true,
+  // autoplay: true,
   appendArrows: $(".carousel__container_products"),
   appendDots: $(".carousel_products"),
   dotsClass: "carousel__dots",

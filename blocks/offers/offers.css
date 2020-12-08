@@ -2,6 +2,10 @@
   background: #16b9ff;
 }
 
+.carousel__item_offer {
+  outline: none;
+}
+
 .offer {
   width: calc(100% - 21px);
   margin: 10px auto;
@@ -40,6 +44,7 @@
   width: 90%;
   height: auto;
   margin: 0px 0 45px 0;
+  display: block;
 }
 
 .offer__price {
@@ -53,6 +58,7 @@
 }
 
 .offer__star {
+  display: block;
   width: 43px;
   height: 43px;
   margin: 0px 0 17px 0;
