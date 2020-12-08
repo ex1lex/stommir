@@ -1,9 +1,3 @@
-.footer {
-  background: #08b0f9;
-}
-.footer__content {
-  background: white;
-}
 .footer-menu__container {
   max-width: 700px;
   margin: 0 auto;
@@ -43,7 +37,7 @@
 
 .footer-menu__item {
   list-style: none;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .footer-menu__link {
@@ -125,6 +119,10 @@
     margin: 0 0 27px 0;
     position: relative;
   }
+
+  .footer-menu:last-child {
+    margin: 0;
+  }
   .footer-menu__title {
     font-size: 16px;
     line-height: 19px;
@@ -168,7 +166,7 @@
   .footer-menu__list {
     visibility: hidden;
     opacity: 0;
-    height: 0;
+    height: 0px;
     -webkit-transition: all linear 0.2s;
     -moz-transition: all linear 0.2s;
     -o-transition: all linear 0.2s;
