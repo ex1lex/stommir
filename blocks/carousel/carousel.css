@@ -12,6 +12,14 @@
   justify-content: center;
 }
 
+.carousel__container_brends {
+  max-height: 70px;
+}
+
+.carousel__container_products {
+  max-height: 400px;
+}
+
 .carousel__item {
   max-width: 1060px;
 }
@@ -103,9 +111,9 @@
 
 @media (max-width: 425px) {
   .carousel__btn_prev {
-    margin: 0 5px 0 10px;
+    margin: 0 5px 0 3px;
   }
   .carousel__btn_next {
-    margin: 0 10px 0 5px;
+    margin: 0 3px 0 5px;
   }
 }
