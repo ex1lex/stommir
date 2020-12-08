@@ -153,6 +153,8 @@
     -moz-color: white;
     -o-color: white;
     color: white;
+    -webkit-text-fill-color: white;
+    -webkit-opacity: 1;
     right: 0;
     transform: rotate(45deg);
     -webkit-transition: all linear 0.2s;
