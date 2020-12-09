@@ -47,6 +47,7 @@ $(".carousel__container_brends").slick({
   slidesToShow: 5,
   slidesToScroll: 5,
   dots: true,
+  adaptiveHeight: true,
   autoplay: true,
   appendArrows: $(".carousel__container_brends"),
   appendDots: $(".carousel_brends"),
@@ -71,13 +72,6 @@ $(".carousel__container_brends").slick({
         slidesToScroll: 3,
       },
     },
-    {
-      breakpoint: 426,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-      },
-    },
   ],
 });
 
@@ -91,4 +85,36 @@ menuList.forEach((menu) => {
     console.log(menuUl);
     menuUl.classList.toggle("footer-menu__list_show");
   });
+});
+
+const btn = document.querySelector(".search__result-select-btn");
+const optionList = document.querySelector(".seacrh__list-select");
+const result = document.querySelector(".search__result-select");
+const searchSelect = document.querySelector(".search__select");
+const listItems = Array.from(document.querySelectorAll(".search__list-item"));
+const searchResultSelect = document.querySelector(".seacrh__input-select");
+const inputSearch = document.querySelector(".search__input");
+
+function toggleOptionList() {
+  btn.classList.toggle("search__result-select-btn_rotate");
+  optionList.classList.toggle("seacrh__list-select_show");
+}
+
+searchSelect.addEventListener("click", function (e) {
+  toggleOptionList();
+});
+
+listItems.forEach((item) => {
+  item.addEventListener("click", function (e) {
+    result.textContent = e.target.dataset.val;
+    toggleOptionList();
+  });
+});
+
+inputSearch.addEventListener("input", () => {
+  if (inputSearch.value.length >= 2) {
+    searchResultSelect.classList.add("seacrh__input-select_show");
+  } else {
+    searchResultSelect.classList.remove("seacrh__input-select_show");
+  }
 });

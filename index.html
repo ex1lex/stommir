@@ -17,7 +17,131 @@
     <title>СТОММИР</title>
   </head>
   <body class="page">
-    <header class="header">шапка</header>
+    <header class="header">
+      <div class="header__line-top">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="" class="logo__img">
+        </a>
+        <ul class="contacts">
+          <li class="contacts__item">
+            <img src="images/icon_call.svg" alt="иконка" class="contacts__icon">
+            <div class="contacts__item-content">
+              <h1 class="contacts__title">Телефон</h1>
+              <p class="contacts__subtitle">+7 (812) 921-69-85</p>
+            </div>
+          </li>
+          <li class="contacts__item">
+            <img src="images/icon_mail.svg" alt="иконка" class="contacts__icon">
+            <div class="contacts__item-content">
+              <h1 class="contacts__title">Почта</h1>
+              <p class="contacts__subtitle">stommir78@mail.ru</p>
+            </div>
+          </li>
+          <li class="contacts__item">
+            <img src="images/icon_time.svg" alt="иконка" class="contacts__icon">
+            <div class="contacts__item-content">
+              <h1 class="contacts__title">Время работы</h1>
+              <p class="contacts__subtitle">пн-пт: 10:00-19:00</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="links">
+          <li class="links__item">
+            <a class="links__link" href="#">
+              <img class="links__img" src="images/basket.svg" alt="иконка">
+              <span class="links__label">Корзина</span>
+            </a>
+          </li>
+          <li class="links__item">
+            <a class="links__link" href="#">
+              <img class="links__img" src="images/klient.svg" alt="иконка">
+              <span class="links__label">Клиент-центр</span>
+            </a>
+          </li>
+          <li class="links__item">
+            <a class="links__link" href="#">
+              <img class="links__img" src="images/catalog.svg" alt="иконка">
+              <span class="links__label">Каталог</span>
+            </a>
+          </li>
+          <li class="links__item links__item_search">
+            <button class="links__link">
+              <img class="links__img" src="images/search.svg" alt="иконка">
+            </button>
+            <span class="links__label">Поиск</span>
+          </li>
+
+          <li class="links__item links__item_burger">
+            <button class="links__link">
+              <img class="links__img" src="images/burger-white.svg" alt="иконка">
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="header__line-center">
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="#" class="menu__link">О нас</a>
+            <button class="menu__btn" type="button">+</button>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Оплата</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Доставка</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Контакты</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Отзывы</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__line-bottom">
+        <form class="search">
+          <div class="search__select">
+            <h1 class="search__result-select">Каталог</h1>
+            <button type="button" class="search__result-select-btn">></button>
+          </div>
+          <ul class="seacrh__list-select">
+            <li class="search__list-item" data-val="Каталог">Каталог</li>
+            <li class="search__list-item sublist" data-val="Анастезия">Анастезия
+                <ul class="seacrh__sublist-select">
+                    <li class="search__list-item" data-val="Ортопедия">Ортопедия</li>
+                    <li class="search__list-item" data-val="Анастезия">Анастезия</li>
+                </ul>
+            </li>
+            <li class="search__list-item sublist" data-val="Ортопедия">Ортопедия
+                <ul class="seacrh__sublist-select">
+                    <li class="search__list-item" data-val="Анастезия">Анастезия</li>
+                    <li class="search__list-item" data-val="Ортопедия">Ортопедия</li>
+                </ul>
+            </li>
+          </ul>
+          <div class="search__input-container">
+            <input class="search__input" value="" placeholder="Поиск товара по каталогу" type="text">
+            <button class="search__input-btn" type="submit">
+              <img src="images/icon_search.svg" alt="" class="seacrh__icon">
+            </button>
+            <ul class="seacrh__input-select">
+              <li class="search__input-item" >
+                <img src="images/icon_search.svg" class="search__input-img" alt="иконка">
+                <a href="#" class="search__input-link">1</a>
+              </li>
+              <li class="search__input-item" >
+                <img src="images/icon_search.svg" class="search__input-img" alt="иконка">
+                <a href="#" class="search__input-link">2</a>
+              </li>
+              <li class="search__input-item" >
+                <img src="images/icon_search.svg" class="search__input-img" alt="иконка">
+                <a href="#" class="search__input-link">3</a>
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </header>
     <!-- <section class="banner banner__products">
       <div class="carousel carousel_products">
         <div class="carousel__container carousel__container_products">
@@ -442,9 +566,9 @@
     </footer>
     <script
       type="text/javascript"
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      src="scripts/jQuery.js"
     ></script>
     <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
-    <script src="scripts.js"></script>
+    <script src="scripts/scripts.js"></script>
   </body>
 </html>

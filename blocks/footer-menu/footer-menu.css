@@ -142,7 +142,7 @@
     -moz-color: white;
     -o-color: white;
     color: white;
-    padding: 0px;
+    padding: 0px 5px;
     font-size: 16px;
     cursor: pointer;
     -webkit-transition: all linear 0.2s;
