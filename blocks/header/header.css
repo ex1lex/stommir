@@ -534,12 +534,13 @@
 }
 
 .search__input-btn {
+  padding: 0;
   outline: none;
   border: none;
   background: none;
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   right: 30px;
   cursor: pointer;
   top: calc((100% - 15px) / 2);
@@ -728,8 +729,8 @@
   }
 
   .search__input-btn {
-    width: 14px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     right: 40px;
   }
 }
