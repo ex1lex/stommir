@@ -24,7 +24,7 @@
   background: none;
   color: #c7cccf;
   font-size: 35px;
-  z-index: 5000;
+  z-index: 4000;
   cursor: pointer;
   padding: 0;
 }
@@ -113,9 +113,9 @@
     max-height: 400px;
   }
   .carousel__btn_prev {
-    margin: 0 5px 0 5px;
+    margin: 0 5px 0 10px;
   }
   .carousel__btn_next {
-    margin: 0 5px 0 5px;
+    margin: 0 10px 0 5px;
   }
 }
