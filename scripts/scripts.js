@@ -86,6 +86,7 @@ const listItems = Array.from(document.querySelectorAll(".search__list-item"));
 const searchResultSelect = document.querySelector(".seacrh__input-select");
 const inputSearch = document.querySelector(".search__input");
 const mobileMenuBtn = document.querySelector(".links__item_burger");
+const mobileMenuFooterBtn = document.querySelector(".footer__btn");
 const mobileSearchBtn = document.querySelector(".links__item_search");
 const search = document.querySelector(".header__line-bottom");
 const mobileMenu = document.querySelector(".header__line-center");
@@ -122,6 +123,9 @@ mobileSearchBtn.addEventListener("click", () => {
 });
 
 mobileMenuBtn.addEventListener("click", () => {
+  mobileMenu.classList.toggle("header__line-center_show");
+});
+mobileMenuFooterBtn.addEventListener("click", () => {
   mobileMenu.classList.toggle("header__line-center_show");
 });
 
