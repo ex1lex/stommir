@@ -730,5 +730,6 @@
   .search__input-btn {
     width: 14px;
     height: 15px;
+    right: 40px;
   }
 }
