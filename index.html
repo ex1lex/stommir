@@ -26,21 +26,21 @@
           <li class="contacts__item">
             <img src="images/icon_call.svg" alt="иконка" class="contacts__icon">
             <div class="contacts__item-content">
-              <h1 class="contacts__title">Телефон</h1>
+              <h3 class="contacts__title">Телефон</h1>
               <p class="contacts__subtitle">+7 (812) 921-69-85</p>
             </div>
           </li>
           <li class="contacts__item">
             <img src="images/icon_mail.svg" alt="иконка" class="contacts__icon">
             <div class="contacts__item-content">
-              <h1 class="contacts__title">Почта</h1>
+              <h3 class="contacts__title">Почта</h1>
               <p class="contacts__subtitle">stommir78@mail.ru</p>
             </div>
           </li>
           <li class="contacts__item">
             <img src="images/icon_time.svg" alt="иконка" class="contacts__icon">
             <div class="contacts__item-content">
-              <h1 class="contacts__title">Время работы</h1>
+              <h3 class="contacts__title">Время работы</h1>
               <p class="contacts__subtitle">пн-пт: 10:00-19:00</p>
             </div>
           </li>
@@ -82,19 +82,25 @@
       <div class="header__line-center">
         <ul class="menu">
           <button class="menu__btn-close" type="button">+</button>
-          <li class="menu__item">
-            <a href="#" class="menu__link">О нас</a>
+          <li class="menu__item menu__item_catalog">
+            <a href="#" class="menu__link">Каталог</a>
             <button class="menu__btn" type="button">+</button>
             <ul class="menu__sublist">
-              <li class="menu__item"><a href="#" class="menu__link menu__link_sub">О нас 1</a></li>
-              <li class="menu__item"><a href="#" class="menu__link menu__link_sub">О нас 2</a></li>
-              <li class="menu__item"><a href="#" class="menu__link menu__link_sub">О нас 3</a></li>
-              <li class="menu__item"><a href="#" class="menu__link menu__link_sub">О нас 4</a></li>
-              <li class="menu__item"><a href="#" class="menu__link menu__link_sub">О нас 5</a></li>
+              <li class="menu__item"><a href="#" class="menu__link menu__link_sub">Категория 1</a></li>
+              <li class="menu__item"><a href="#" class="menu__link menu__link_sub">Категория 2</a></li>
+              <li class="menu__item"><a href="#" class="menu__link menu__link_sub">Категория 3</a></li>
+              <li class="menu__item"><a href="#" class="menu__link menu__link_sub">Категория 4</a></li>
+              <li class="menu__item"><a href="#" class="menu__link menu__link_sub">Категория 5</a></li>
             </ul>
           </li>
           <li class="menu__item">
+            <a href="#" class="menu__link">О нас</a>
+          </li>
+          <li class="menu__item">
             <a href="#" class="menu__link">Оплата</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Акции</a>
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link">Доставка</a>
@@ -110,7 +116,7 @@
       <div class="header__line-bottom">
         <form class="search">
           <div class="search__select">
-            <h1 class="search__result-select">Каталог</h1>
+            <h3 class="search__result-select">Каталог</h1>
             <button type="button" class="search__result-select-btn">></button>
           </div>
           <ul class="seacrh__list-select">
@@ -162,7 +168,7 @@
                 class="product__img"
               />
               <img src="images/star.svg" alt="звезда" class="product__star" />
-              <h1 class="product__title">Harmonize™️</h1>
+              <h3 class="product__title">Harmonize™️</h1>
               <p class="product__subtitle">
                 Harmonize™️ - Природная эстетика в ваших руках
               </p>
@@ -177,7 +183,7 @@
                 class="product__img"
               />
               <img src="images/star.svg" alt="звезда" class="product__star" />
-              <h1 class="product__title">Harmonize™️</h1>
+              <h3 class="product__title">Harmonize™️</h1>
               <p class="product__subtitle">
                 Harmonize™️ - Природная эстетика в ваших руках
               </p>
@@ -192,7 +198,7 @@
                 class="product__img"
               />
               <img src="images/star.svg" alt="звезда" class="product__star" />
-              <h1 class="product__title">Harmonize™️</h1>
+              <h3 class="product__title">Harmonize™️</h1>
               <p class="product__subtitle">
                 Harmonize™️ - Природная эстетика в ваших руках
               </p>
@@ -206,28 +212,34 @@
       <div class="carousel carousel_products">
         <div class="carousel__container carousel__container_products">
           <a href="" class="carousel__item carousel__item_product">
-            <img src="images/banner1.png" class="product product_extra-large"></img>
-            <img src="images/banner2.png" class="product product_large"></img>
-            <img src="images/banner3.png" class="product product_medium"></img>
-            <img src="images/banner4.png" class="product product_small"></img>
+            <div class="product">
+              <img src="images/banner1.png" class="product__img product__img_extra-large"></img>
+              <img src="images/banner2.png" class="product__img product__img_large"></img>
+              <img src="images/banner3.png" class="product__img product__img_medium"></img>
+              <img src="images/banner4.png" class="product__img product__img_small"></img>
+            </div>
           </a>
           <a href="" class="carousel__item carousel__item_product">
-            <img src="images/banner1.png" class="product product_extra-large"></img>
-            <img src="images/banner2.png" class="product product_large"></img>
-            <img src="images/banner3.png" class="product product_medium"></img>
-            <img src="images/banner4.png" class="product product_small"></img>
+            <div class="product">
+              <img src="images/banner1.png" class="product__img product__img_extra-large"></img>
+              <img src="images/banner2.png" class="product__img product__img_large"></img>
+              <img src="images/banner3.png" class="product__img product__img_medium"></img>
+              <img src="images/banner4.png" class="product__img product__img_small"></img>
+            </div>
           </a>
           <a href="" class="carousel__item carousel__item_product">
-            <img src="images/banner1.png" class="product product_extra-large"></img>
-            <img src="images/banner2.png" class="product product_large"></img>
-            <img src="images/banner3.png" class="product product_medium"></img>
-            <img src="images/banner4.png" class="product product_small"></img>
+            <div class="product">
+              <img src="images/banner1.png" class="product__img product__img_extra-large"></img>
+              <img src="images/banner2.png" class="product__img product__img_large"></img>
+              <img src="images/banner3.png" class="product__img product__img_medium"></img>
+              <img src="images/banner4.png" class="product__img product__img_small"></img>
+            </div>
           </a>
         </div>
       </div>
     </section>
     <section class="banner banner__offers">
-      <h1 class="banner__title">Специальное предложение</h1>
+      <h3 class="banner__title">Специальное предложение</h1>
       <div class="carousel carousel_offers">
         <div class="carousel__container carousel__container_offers">
           <div class="carousel__item carousel__item_offer">
@@ -242,16 +254,16 @@
               </div>
               <div class="offer__coll offer__coll_right">
                 <img src="images/star.svg" alt="звезда" class="offer__star" />
-                <h1 class="offer__title">Harmonize™️</h1>
+                <h3 class="offer__title">СПИДЕКС База 910 мл</h1>
                 <p class="offer__subtitle">
-                  Harmonize™️ - Природная эстетика в ваших руках
+                  Уникальный С-силиконовый материал. Светло-серая основа с высоким показателем
                 </p>
-                <a href="" class="offer__link link">перейти в раздел</a>
+                <a href="" class="offer__link link">подробнее</a>
               </div>
             </div>
 
             <div class="offer_mobile">
-              <h1 class="offer__title">Harmonize™️</h1>
+              <h3 class="offer__title">Harmonize™️</h1>
               <p class="offer__subtitle">
                 Harmonize™️ - Природная эстетика в ваших руках
               </p>
@@ -260,7 +272,7 @@
                 alt="картинка специального предложения"
                 class="offer__img"
               />
-              <a href="" class="offer__link link">перейти в раздел</a>
+              <a href="" class="offer__link link">подробнее</a>
             </div>
           </div>
           <div class="carousel__item carousel__item_offer">
@@ -275,16 +287,16 @@
               </div>
               <div class="offer__coll offer__coll_right">
                 <img src="images/star.svg" alt="звезда" class="offer__star" />
-                <h1 class="offer__title">Harmonize™️</h1>
+                <h3 class="offer__title">Harmonize™️</h1>
                 <p class="offer__subtitle">
                   Harmonize™️ - Природная эстетика в ваших руках
                 </p>
-                <a href="" class="offer__link link">перейти в раздел</a>
+                <a href="" class="offer__link link">подробнее</a>
               </div>
             </div>
 
             <div class="offer_mobile">
-              <h1 class="offer__title">Harmonize™️</h1>
+              <h3 class="offer__title">Harmonize™️</h1>
               <p class="offer__subtitle">
                 Harmonize™️ - Природная эстетика в ваших руках
               </p>
@@ -293,7 +305,7 @@
                 alt="картинка специального предложения"
                 class="offer__img"
               />
-              <a href="" class="offer__link link">перейти в раздел</a>
+              <a href="" class="offer__link link">подробнее</a>
             </div>
           </div>
           <div class="carousel__item carousel__item_offer">
@@ -308,16 +320,16 @@
               </div>
               <div class="offer__coll offer__coll_right">
                 <img src="images/star.svg" alt="звезда" class="offer__star" />
-                <h1 class="offer__title">Harmonize™️</h1>
+                <h3 class="offer__title">Harmonize™️</h1>
                 <p class="offer__subtitle">
                   Harmonize™️ - Природная эстетика в ваших руках
                 </p>
-                <a href="" class="offer__link link">перейти в раздел</a>
+                <a href="" class="offer__link link">подробнее</a>
               </div>
             </div>
 
             <div class="offer_mobile">
-              <h1 class="offer__title">Harmonize™️</h1>
+              <h3 class="offer__title">Harmonize™️</h1>
               <p class="offer__subtitle">
                 Harmonize™️ - Природная эстетика в ваших руках
               </p>
@@ -326,7 +338,7 @@
                 alt="картинка специального предложения"
                 class="offer__img"
               />
-              <a href="" class="offer__link link">перейти в раздел</a>
+              <a href="" class="offer__link link">подробнее</a>
             </div>
           </div>
           <div class="carousel__item carousel__item_offer">
@@ -341,16 +353,16 @@
               </div>
               <div class="offer__coll offer__coll_right">
                 <img src="images/star.svg" alt="звезда" class="offer__star" />
-                <h1 class="offer__title">Harmonize™️</h1>
+                <h3 class="offer__title">Harmonize™️</h1>
                 <p class="offer__subtitle">
                   Harmonize™️ - Природная эстетика в ваших руках
                 </p>
-                <a href="" class="offer__link link">перейти в раздел</a>
+                <a href="" class="offer__link link">подробнее</a>
               </div>
             </div>
 
             <div class="offer_mobile">
-              <h1 class="offer__title">Harmonize™️</h1>
+              <h3 class="offer__title">Harmonize™️</h1>
               <p class="offer__subtitle">
                 Harmonize™️ - Природная эстетика в ваших руках
               </p>
@@ -359,14 +371,14 @@
                 alt="картинка специального предложения"
                 class="offer__img"
               />
-              <a href="" class="offer__link link">перейти в раздел</a>
+              <a href="" class="offer__link link">подробнее</a>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="catalog">
-      <h1 class="catalog__title">КАТАЛОГ</h1>
+      <h1 class="catalog__title">Каталог стоматологических материалов</h1>
       <p class="catalog__subtitle">
         При оформлении заказа до 16.00 часов,<br />доставка производится на
         следующий рабочий день
@@ -514,7 +526,7 @@
     <footer class="footer">
       <div class="footer-menu__container">
         <div class="footer-menu">
-          <h1 class="footer-menu__title">Информация</h1>
+          <h3 class="footer-menu__title">Информация</h1>
           <button class="footer-menu__btn" type="button">+</button>
           <ul class="footer-menu__list">
             <li class="footer-menu__item"><a href="" class="footer-menu__link">Доставка</a></li>
@@ -525,7 +537,7 @@
           </ul>
         </div>
         <div class="footer-menu">
-          <h1 class="footer-menu__title">Категории</h1>
+          <h3 class="footer-menu__title">Категории</h1>
           <button class="footer-menu__btn" type="button">+</button>
           <ul class="footer-menu__list">
             <li class="footer-menu__item"><a href="" class="footer-menu__link">Каталог</a></li>
@@ -536,7 +548,7 @@
           </ul>
         </div>
         <div class="footer-menu">
-          <h1 class="footer-menu__title">Личный кабинет</h1>
+          <h3 class="footer-menu__title">Личный кабинет</h1>
           <button class="footer-menu__btn" type="button">+</button>
           <ul class="footer-menu__list">
             <li class="footer-menu__item"><a href="" class="footer-menu__link">Личный кабинет</a></li>
@@ -545,8 +557,28 @@
             <li class="footer-menu__item"><a href="" class="footer-menu__link">Рассылка новостей</a></li>
           </ul>
         </div>
+        <div class="footer-menu">
+          <h3 class="footer-menu__title">Контакты</h1>
+          <button class="footer-menu__btn" type="button">+</button>
+          <ul class="footer-menu__list">
+            <li class="footer-menu__item">Россия, г. Санкт-Петербург, Московское шоссе 25 к.1</li>
+            <li class="footer-menu__item"><a href="" class="footer-menu__link">+7 (812) 921-69-85</a></li>
+            <li class="footer-menu__item"><a href="mailto:stommir78@mail.ru" class="footer-menu__link"> stommir78@mail.ru</a></li>
+            <li class="footer-menu__item"> ПН-ПТ: 10:00 - 19:00</li>
+          </ul>
+        </div>
       </div>
-      
+      <div class="footer-copy">
+        <h3 class="footer-copy__copyright">&copy СТОММИР</h3>
+        <div class="footer-copy__pay-container">
+          <h4 class="footer-copy__pay-label">Принимаем к оплате:</h4>
+          <ul class="footer-copy__pay-list">
+            <li class="footer-copy__pay footer-copy__pay_sberbank">1</li>
+            <li class="footer-copy__pay footer-copy__pay_visa">2</li>
+            <li class="footer-copy__pay footer-copy__pay_mastercard">3</li>
+          </ul>
+        </div>
+      </div>
       <div class="footer__content">
         <button type="button" class="footer__btn"><img class="footer__btn-img" src="images/icon-bottom-burger.svg" alt=""></button>
         <ul class="footer__list">

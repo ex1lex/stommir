@@ -74,6 +74,96 @@
   padding: 0;
 }
 
+.footer-copy {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.footer-copy__copyright {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-copy__pay-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-copy__pay-label {
+  margin: 0 10px 0 0;
+}
+
+.footer-copy__pay-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-copy__pay {
+  background-repeat: no-repeat;
+  display: inline-block;
+  opacity: 0.9;
+  background-image: url(../../images/pay-list.png);
+  width: 53px;
+  height: 33px;
+  margin-right: 4px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  opacity: 0.5;
+}
+
+.footer-copy__pay:hover {
+  opacity: 1;
+}
+
+.footer-copy__pay:last-child {
+  margin-right: 0px;
+}
+
+.footer-copy__pay_sberbank {
+  background-position: 0 -185px;
+}
+
+.footer-copy__pay_visa {
+  background-position: 0 0;
+}
+
+.footer-copy__pay_mastercard {
+  background-position: -66px 0;
+}
+
+@media (max-width: 580px) {
+  .footer-copy {
+    flex-direction: column;
+  }
+
+  .footer-copy__copyright {
+    margin-bottom: 10px;
+  }
+  .footer-copy__pay-container {
+    flex-direction: column;
+  }
+  .footer-copy__pay-label {
+    margin: 0 0 5px 0;
+  }
+}
+
 @media (max-width: 1024px) {
   .footer__item {
     margin: 0 30px 0 0;
