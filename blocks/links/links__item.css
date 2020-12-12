@@ -1,0 +1,30 @@
+.links__item {
+  margin: 0 20px 0 0;
+}
+
+.links__item:last-child {
+  margin-right: 0;
+}
+@media (max-width: 1024px) {
+  .links__item {
+    margin: 0 20px 0 0;
+  }
+
+  .links__item:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 820px) {
+  .links__item {
+    margin: 0 8% 0 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .links__item {
+    margin: 0;
+    border-right: 1px solid #ffffff;
+    width: 25%;
+  }
+}

@@ -1,0 +1,10 @@
+.search__input-link {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #11b5fc;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

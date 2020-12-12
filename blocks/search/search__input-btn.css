@@ -1,0 +1,19 @@
+.search__input-btn {
+  padding: 0;
+  outline: none;
+  border: none;
+  background: none;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 30px;
+  cursor: pointer;
+  top: calc((100% - 15px) / 2);
+}
+@media (max-width: 540px) {
+  .search__input-btn {
+    width: 16px;
+    height: 16px;
+    right: 40px;
+  }
+}

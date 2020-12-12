@@ -1,0 +1,23 @@
+.contacts__item {
+  border-right: 1px solid rgba(20, 180, 247, 0.5);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 37px;
+  padding: 10px 35px 10px 20px;
+}
+
+.contacts__item:first-child {
+  padding-left: 0;
+}
+.contacts__item:last-child {
+  border: none;
+  padding-right: 0;
+}
+
+@media (max-width: 1024px) {
+  .contacts__item {
+    padding: 8px 18px 8px 18px;
+  }
+}

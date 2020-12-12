@@ -1,0 +1,38 @@
+.offer__title {
+  padding: 0;
+  max-width: 200px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 11px 0;
+  color: #ffffff;
+}
+@media (max-width: 1024px) {
+  .offer__title {
+    max-width: 180px;
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 9px;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 768px) {
+  .offer__title {
+    max-width: 215px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .offer__title {
+    max-width: 300px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: black;
+    margin-top: 52px;
+  }
+}

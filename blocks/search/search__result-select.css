@@ -1,0 +1,10 @@
+.search__result-select {
+  margin: 0 16px 0 0;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  max-height: 13px;
+  text-transform: uppercase;
+  color: #11b5fc;
+  cursor: pointer;
+}

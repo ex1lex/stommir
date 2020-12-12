@@ -1,0 +1,6 @@
+@media (max-width: 820px) {
+  .menu__link_sub {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

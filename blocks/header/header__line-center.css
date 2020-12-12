@@ -1,0 +1,8 @@
+.header__line-center {
+  background: #11b5fc;
+}
+@media (max-width: 820px) {
+  .header__line-center {
+    display: none;
+  }
+}

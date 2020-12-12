@@ -1,0 +1,17 @@
+.catalog__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 172px;
+}
+@media (max-width: 768px) {
+  .catalog__item {
+    max-width: 142px;
+  }
+}
+
+@media (max-width: 425px) {
+  .catalog__item {
+    max-width: 40vw;
+  }
+}

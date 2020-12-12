@@ -1,14 +1,7 @@
-.carousel__item_brend {
-  outline: none;
-}
 .brend {
   width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.brends__img {
-  width: 90%;
-  height: 90%;
 }

@@ -1,0 +1,18 @@
+.link {
+  color: #ffffff;
+  background: #11b5fc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+
+.link:hover,
+.link:active {
+  background: #0085ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}

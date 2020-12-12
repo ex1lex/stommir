@@ -1,0 +1,21 @@
+.footer__list {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .footer__list {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 540px) {
+  .footer__list {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0;
+  }
+}

@@ -1,0 +1,8 @@
+.footer-copy__pay-label {
+  margin: 0 10px 0 0;
+}
+@media (max-width: 580px) {
+  .footer-copy__pay-label {
+    margin: 0 0 5px 0;
+  }
+}

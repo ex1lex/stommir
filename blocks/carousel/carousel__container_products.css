@@ -1,0 +1,5 @@
+@media (max-width: 425px) {
+  .carousel__container_products {
+    max-height: 400px;
+  }
+}

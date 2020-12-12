@@ -1,0 +1,30 @@
+.logo {
+  width: 103px;
+  height: 75px;
+  text-decoration: none;
+  outline: none;
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    width: 82px;
+    height: 55px;
+  }
+}
+@media (max-width: 820px) {
+  .logo {
+    width: 82px;
+    height: 55px;
+    position: absolute;
+    top: 65px;
+  }
+}
+@media (max-width: 540px) {
+  .logo {
+    width: 82px;
+    height: 55px;
+    position: absolute;
+    top: 65px;
+    left: 11px;
+  }
+}

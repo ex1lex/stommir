@@ -1,0 +1,20 @@
+.carousel__btn_next {
+  margin: 0 56px 0 43;
+}
+
+@media (max-width: 1024px) {
+  .carousel__btn_next {
+    margin: 0 41px 0 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel__btn_next {
+    margin: 0 24px 0 35px;
+  }
+}
+@media (max-width: 425px) {
+  .carousel__btn_next {
+    margin: 0 10px 0 5px;
+  }
+}

@@ -1,0 +1,18 @@
+.search__result-select-btn {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  font-size: 20px;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  color: #11b5fc;
+  transform: rotate(90deg);
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  top: calc((100% - 20px) / 2);
+}

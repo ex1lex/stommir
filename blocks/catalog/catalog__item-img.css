@@ -1,0 +1,18 @@
+.catalog__item-img {
+  width: 172px;
+  height: 117px;
+  margin-bottom: 24px;
+}
+@media (max-width: 768px) {
+  .catalog__item-img {
+    width: 142px;
+    height: 97px;
+  }
+}
+@media (max-width: 425px) {
+  .catalog__item-img {
+    width: 100%;
+    height: 116px;
+    margin-bottom: 20px;
+  }
+}

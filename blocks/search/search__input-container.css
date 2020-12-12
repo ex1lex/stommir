@@ -1,0 +1,15 @@
+.search__input-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-left: 1px solid #11b5fc;
+  position: relative;
+  width: 100%;
+}
+@media (max-width: 540px) {
+  .search__input-container {
+    border-left: none;
+    border-right: none;
+  }
+}

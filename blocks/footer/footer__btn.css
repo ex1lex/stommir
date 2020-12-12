@@ -1,0 +1,17 @@
+.footer__btn {
+  display: none;
+  outline: none;
+  border: none;
+  background: none;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  top: calc((100% - 33px) / 2);
+  left: 30px;
+  padding: 0;
+}
+@media (max-width: 540px) {
+  .footer__btn {
+    display: block;
+  }
+}

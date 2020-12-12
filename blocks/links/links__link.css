@@ -1,0 +1,36 @@
+.links__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  color: #bcb1b1;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .links__link {
+    font-size: 8px;
+    line-height: 9px;
+  }
+}
+@media (max-width: 820px) {
+  .links__link {
+    font-size: 8px;
+    line-height: 9px;
+    border: none;
+    outline: none;
+    background: none;
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 540px) {
+  .links__link {
+    padding: 0;
+    width: 100%;
+  }
+}

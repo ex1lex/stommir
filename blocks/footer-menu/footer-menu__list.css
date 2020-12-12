@@ -1,0 +1,15 @@
+.footer-menu__list {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 425px) {
+  .footer-menu__list {
+    visibility: hidden;
+    opacity: 0;
+    height: 0px;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+  }
+}

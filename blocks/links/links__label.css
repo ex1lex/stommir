@@ -1,0 +1,28 @@
+.links__label {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .links__label {
+    display: block;
+  }
+}
+
+@media (max-width: 820px) {
+  .header {
+    margin-bottom: 70px;
+  }
+
+  .links__label {
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 540px) {
+  .links__label {
+    display: none;
+  }
+}

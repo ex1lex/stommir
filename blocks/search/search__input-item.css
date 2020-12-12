@@ -1,0 +1,11 @@
+.search__input-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search__input-item:last-child {
+  margin: 0;
+}

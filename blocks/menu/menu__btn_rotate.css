@@ -1,0 +1,5 @@
+@media (max-width: 820px) {
+  .menu__btn_rotate {
+    transform: rotate(45deg);
+  }
+}

@@ -1,0 +1,14 @@
+.catalog__link {
+  padding: 10px 25px;
+  font-size: 10px;
+  line-height: 12px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+@media (max-width: 425px) {
+  .catalog__link {
+    padding: 10px 25px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}

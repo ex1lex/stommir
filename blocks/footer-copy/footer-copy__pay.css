@@ -1,0 +1,21 @@
+.footer-copy__pay {
+  background-repeat: no-repeat;
+  display: inline-block;
+  opacity: 0.9;
+  background-image: url(../../images/pay-list.png);
+  width: 53px;
+  height: 33px;
+  margin-right: 4px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  opacity: 0.5;
+}
+
+.footer-copy__pay:hover {
+  opacity: 1;
+}
+
+.footer-copy__pay:last-child {
+  margin-right: 0px;
+}

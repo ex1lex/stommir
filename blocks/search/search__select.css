@@ -1,0 +1,17 @@
+.search__select {
+  position: relative;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+}
+@media (max-width: 540px) {
+  .search__select {
+    display: none;
+  }
+}

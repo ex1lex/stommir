@@ -1,0 +1,18 @@
+.carousel__btn_prev {
+  margin: 0 43px 0 56px;
+}
+@media (max-width: 1024px) {
+  .carousel__btn_prev {
+    margin: 0 38px 0 41px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel__btn_prev {
+    margin: 0 35px 0 24px;
+  }
+}
+@media (max-width: 425px) {
+  .carousel__btn_prev {
+    margin: 0 5px 0 10px;
+  }
+}

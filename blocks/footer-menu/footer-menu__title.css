@@ -1,0 +1,33 @@
+.footer-menu__title {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 0 11px 0;
+}
+@media (max-width: 1024px) {
+  .footer-menu__title {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-menu__title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer-menu__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+@media (max-width: 425px) {
+  .footer-menu__title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

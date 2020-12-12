@@ -1,0 +1,18 @@
+.search {
+  z-index: 5000;
+  max-width: 540px;
+  margin: 22px auto;
+  background: #ffffff;
+  border: 1px solid #11b5fc;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+@media (max-width: 820px) {
+  .search {
+    margin: 0 auto;
+  }
+}

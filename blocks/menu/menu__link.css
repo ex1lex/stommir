@@ -1,0 +1,13 @@
+.menu__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+
+.menu__link:hover,
+.menu__link:active {
+  border-bottom: 2px solid white;
+}

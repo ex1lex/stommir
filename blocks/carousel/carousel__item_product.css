@@ -1,0 +1,16 @@
+.carousel__item_product {
+  border: 1px solid transparent;
+  height: 280px;
+  outline: none;
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .carousel__item_product {
+    height: 228px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel__item_product {
+    height: 260px;
+  }
+}

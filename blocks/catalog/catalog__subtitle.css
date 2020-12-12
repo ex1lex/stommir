@@ -1,0 +1,17 @@
+.catalog__subtitle {
+  margin: 0 0 56px 0;
+  padding: 0;
+  max-width: 680px;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+@media (max-width: 425px) {
+  .catalog__subtitle {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

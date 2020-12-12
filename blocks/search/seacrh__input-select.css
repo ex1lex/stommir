@@ -1,0 +1,15 @@
+.seacrh__input-select {
+  display: none;
+  position: absolute;
+  top: 54px;
+  right: -1px;
+  left: -1px;
+  background: white;
+  border: 1px solid #11b5fc;
+  border-top: none;
+  padding: 15px 27px;
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}

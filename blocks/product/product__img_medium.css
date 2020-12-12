@@ -1,0 +1,22 @@
+.product__img_medium {
+  width: 0;
+  height: 0;
+}
+@media (max-width: 1024px) {
+  .product__img_medium {
+    width: 0;
+    height: 0;
+  }
+}
+@media (max-width: 768px) {
+  .product__img_medium {
+    height: auto;
+    width: auto;
+  }
+}
+@media (max-width: 425px) {
+  .product__img_medium {
+    width: 0;
+    height: 0;
+  }
+}

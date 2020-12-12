@@ -1,0 +1,16 @@
+.links__item_search {
+  display: none;
+}
+@media (max-width: 820px) {
+  .links__item_search {
+    display: block;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 540px) {
+  .links__item_search {
+    border: none;
+    margin-right: 0;
+  }
+}

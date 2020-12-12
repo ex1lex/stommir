@@ -1,0 +1,33 @@
+.search__list-item {
+  list-style: none;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 8px 17px;
+  color: #11b5fc;
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.search__list-item::after {
+  content: ">";
+  font-family: monospace;
+  position: absolute;
+  line-height: normal;
+  right: 12px;
+}
+
+.search__list-item:not(.sublist)::after {
+  content: "";
+}
+
+.search__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.search__list-item:hover,
+.search__list-item:hover::after {
+  background: #11b5fc;
+  color: white;
+}

@@ -1,0 +1,8 @@
+.banner__offers {
+  background: #16b9ff;
+}
+
+.banner__offers li button:hover:before,
+.banner__offers .slick-active button:before {
+  color: white;
+}
