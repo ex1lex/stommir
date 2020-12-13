@@ -35,6 +35,10 @@
 @import url(../blocks/links/links__item_burger.css);
 @import url(../blocks/links/links__link.css);
 @import url(../blocks/links/links__label.css);
+@import url(../blocks/links/links__item_klient.css);
+@import url(../blocks/links/links__subitems.css);
+@import url(../blocks/links/links__subitem.css);
+@import url(../blocks/links/links__sublink.css);
 
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/search__select.css);

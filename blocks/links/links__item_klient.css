@@ -1,0 +1,9 @@
+.links__item_klient {
+  position: relative;
+}
+
+@media (min-width: 821px) {
+  .links__item_klient:hover .links__subitems {
+    display: block;
+  }
+}

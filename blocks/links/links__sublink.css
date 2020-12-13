@@ -1,0 +1,11 @@
+.links__sublink {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: white;
+}
+
+.links__sublink:hover {
+  border-bottom: 1px solid white;
+}
