@@ -5,7 +5,7 @@
   line-height: 33px;
   color: #ffffff;
   text-decoration: none;
-  max-width: 150px;
+  max-width: 250px;
 }
 @media (max-width: 1024px) {
   .footer-menu__item {
@@ -17,6 +17,7 @@
   .footer-menu__item {
     font-size: 15px;
     line-height: 34px;
+    max-width: 150px;
   }
 }
 @media (max-width: 550px) {
